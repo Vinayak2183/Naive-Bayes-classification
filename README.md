@@ -22,10 +22,6 @@ The dataset consists of 400 observations with the following columns:
 3. Train a **Naïve Bayes** classifier using `GaussianNB` from `sklearn`.
 4. Evaluate the model's performance using accuracy metrics.
 
-# Evaluate model
-accuracy = accuracy_score(y_test, y_pred)
-print(f'Accuracy: {accuracy * 100:.2f}%')
-```
 ## Results
 The trained Naïve Bayes model predicts whether a user will purchase a product with an accuracy of approximately **90%** (replace with actual value after running the model).
 
